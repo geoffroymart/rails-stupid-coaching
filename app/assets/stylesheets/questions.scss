@@ -1,0 +1,74 @@
+// Place all the styles related to the Questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+body {
+  font-family: helvetica;
+  p {
+    font-size: 13px;
+    text-decoration: none;
+  }
+}
+
+a {
+  text-decoration: none;
+}
+
+// ASK
+
+#form {
+  height: 40px;
+}
+
+#input {
+  width: 300px;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  padding-left: 5px;
+  border: none;
+  border-bottom: solid 2px black;
+}
+
+#submit {
+  width: 100px;
+  height: 100%;
+  background-color: black;
+  color: white;
+  border-radius: 3px;
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+  margin-left: 10px;
+}
+
+#submit hover {
+  background-color: transparent;
+  border: 2px solid black;
+  color: black;
+}
+
+// ANSWER
+
+.interaction {
+  border-left: 5px solid lightgrey;
+  padding-left: 15px;
+  margin: 10px;
+  p {
+    margin: 0;
+  }
+  .sender {
+    font-weight: bold;
+  }
+}
+
+.new-question {
+  margin: 30px 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 180px;
+  height: 20px;
+  text-align: center;
+  cursor: pointer;
+  color: white;
+}
